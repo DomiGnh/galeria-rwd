@@ -1,26 +1,19 @@
-
-@media (min-width:992px){
-    figure{
-        width: 32.3%;
-        
-    }
+#galery{
+    width: 90%;
     
 }
 
-@media (min-width: 768px) and (max-width: 992px){
-     figure{
-        width: 50%;
-    }
-    
-}
-@media (max-width: 768px) {
-     figure{
-        width: 100%;
-    }
+#galery figure{
+    width: 32%;
 }
 
-@media (max-width: 480px) {
-     figure{
-        width: 100%;
+/* do rodzielczość 992 stosuje poniższe reguły*/
+@media (max-width:992px){
+    #galery figure{
+        width: 49%;
     }
 }
+    
+    
+
+
